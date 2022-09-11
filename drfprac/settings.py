@@ -120,6 +120,7 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
+ALLOWED_HOSTS = ['35.208.147.24']
 
 ELASTICSEARCH_DSL = {
     "default": {
